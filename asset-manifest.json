@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/catering-website/static/css/main.5b42af20.css",
+    "main.js": "/catering-website/static/js/main.4888edc2.js",
+    "static/js/787.47bf7c87.chunk.js": "/catering-website/static/js/787.47bf7c87.chunk.js",
+    "static/media/parallax-1.jpg": "/catering-website/static/media/parallax-1.9dc15cd32693b37cbde2.jpg",
+    "static/media/waiter.jpg": "/catering-website/static/media/waiter.3846daeadd93a44fb77d.jpg",
+    "index.html": "/catering-website/index.html",
+    "main.5b42af20.css.map": "/catering-website/static/css/main.5b42af20.css.map",
+    "main.4888edc2.js.map": "/catering-website/static/js/main.4888edc2.js.map",
+    "787.47bf7c87.chunk.js.map": "/catering-website/static/js/787.47bf7c87.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b42af20.css",
+    "static/js/main.4888edc2.js"
+  ]
+}

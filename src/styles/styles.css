@@ -1,0 +1,79 @@
+.parallax {
+    /* The image used */
+    background-image: url("../media/images/parallax-1.jpg");
+  
+    /* Set a specific height */
+    height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.page-header {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+}
+
+ .content-height {
+    height: 1000px;
+}
+
+.application-container {
+    margin: 0 3%;
+    background-color: #fff;
+}
+
+.waiter-img {
+    width: 100%;
+    max-width: none;
+    min-width: 300px;
+}
+
+.content-text {
+    padding: 5% 2% 5% 2%;
+    width: 90%;
+}
+
+.grid-image {
+    width: 50%;
+    min-width: 400px;
+}
+
+.parallax-commitment {
+    /* The image used */
+    background-image: url("../media/images/waiter.jpg");
+  
+    /* Set a specific height */
+    height: 500px;
+    object-fit: stretch;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .intro-title {
+    
+    font-family: 'adobe-garamond-pro';
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #111;
+  }
+
+  .intro-text {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #444;
+  }
+
+  .commitment {
+    margin-left: 10%;
+    width: 50%;
+  }

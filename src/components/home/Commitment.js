@@ -4,7 +4,7 @@ function Commitment() {
     window.addEventListener("scroll", function () {
         var parallax = document.querySelector(".parallax-commitment");
         var scrolledHeight = window.pageYOffset;
-        parallax.style.backgroundPositionY = (scrolledHeight - (scrolledHeight * 1.3)) + "px";
+        parallax.style.backgroundPositionY = 100 + scrolledHeight * (-0.05) + "px";
     });
     return(
         <div>

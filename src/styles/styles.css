@@ -16,6 +16,8 @@
     position: sticky;
     top: 0;
     background-color: #fff;
+    width: 100vw;
+    margin: 0;
 }
 
  .content-height {
@@ -35,12 +37,12 @@
 
 .content-text {
     padding: 5% 2% 5% 2%;
-    width: 90%;
+    width: 100%;
 }
 
 .grid-image {
     width: 50%;
-    min-width: 400px;
+    min-width: 350px;
 }
 
 .parallax-commitment {
@@ -76,4 +78,14 @@
   .commitment {
     margin-left: 10%;
     width: 50%;
+  }
+
+  @media screen and (max-width: 500px){
+    .commitment {
+      width: 80%;
+    }
+
+    .navigation-actions {
+      display: none !important;
+    }
   }

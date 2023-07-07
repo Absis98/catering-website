@@ -11,7 +11,7 @@ function Home() {
         parallax.style.backgroundPositionY = (scrolledHeight - (scrolledHeight * 1.3)) + "px";
     });
     return (
-        <div>
+        <div className='application-container'>
             <div className='parallax'></div>
             <Introduction />
             <ImageGrid />

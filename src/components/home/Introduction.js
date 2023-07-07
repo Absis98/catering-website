@@ -4,7 +4,7 @@ import "../../styles/styles.css";
 function Introduction() {
     return (
         <div className="content-container">
-            <div className="d-flex flex-column content-text me-4">
+            <div className="d-flex flex-column content-text">
                 <div className="intro-title">
                     Celebrazione!
                     Italian hospitality at its finest.

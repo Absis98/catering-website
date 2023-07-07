@@ -6,7 +6,7 @@ function Header() {
             <div>
                 Sisodiya Caterers
             </div>
-            <div className="d-flex">
+            <div className="d-flex navigation-actions">
                 <div className="mx-3">About</div>
                 <div className="mx-3">Clients</div>
                 <div className="mx-3">Contact</div>

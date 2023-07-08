@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/catering-website/static/css/main.2f49986e.css",
-    "main.js": "/catering-website/static/js/main.dd4d50aa.js",
+    "main.css": "/catering-website/static/css/main.887384b5.css",
+    "main.js": "/catering-website/static/js/main.d5c80d54.js",
     "static/js/787.47bf7c87.chunk.js": "/catering-website/static/js/787.47bf7c87.chunk.js",
-    "static/media/salad.jpg": "/catering-website/static/media/salad.c2c470806597a64b47f7.jpg",
-    "static/media/dishes.jpg": "/catering-website/static/media/dishes.07d2c3b1e31fc3382eea.jpg",
-    "static/media/dishes3.jpg": "/catering-website/static/media/dishes3.e5f3f609f01725c1bdc0.jpg",
-    "static/media/fruits.jpg": "/catering-website/static/media/fruits.2f4717df0dbbab2db9fb.jpg",
-    "static/media/table-served.jpg": "/catering-website/static/media/table-served.9782962d459e293d01f9.jpg",
-    "static/media/dishes2.jpg": "/catering-website/static/media/dishes2.f2f06deb84873e01d474.jpg",
+    "static/media/dishes.jpg": "/catering-website/static/media/dishes.6930401a54ab91f11f9a.jpg",
+    "static/media/salad.jpg": "/catering-website/static/media/salad.e5ad53b08fa589a50a84.jpg",
+    "static/media/fruits.jpg": "/catering-website/static/media/fruits.9eb47b4b110242f151e6.jpg",
+    "static/media/dishes3.jpg": "/catering-website/static/media/dishes3.83c85c3e63c64acd30ee.jpg",
+    "static/media/table-served.jpg": "/catering-website/static/media/table-served.420acd73558feecb7b39.jpg",
+    "static/media/dishes2.jpg": "/catering-website/static/media/dishes2.079d215d1802ddd465ef.jpg",
     "index.html": "/catering-website/index.html",
-    "main.2f49986e.css.map": "/catering-website/static/css/main.2f49986e.css.map",
-    "main.dd4d50aa.js.map": "/catering-website/static/js/main.dd4d50aa.js.map",
+    "main.887384b5.css.map": "/catering-website/static/css/main.887384b5.css.map",
+    "main.d5c80d54.js.map": "/catering-website/static/js/main.d5c80d54.js.map",
     "787.47bf7c87.chunk.js.map": "/catering-website/static/js/787.47bf7c87.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f49986e.css",
-    "static/js/main.dd4d50aa.js"
+    "static/css/main.887384b5.css",
+    "static/js/main.d5c80d54.js"
   ]
 }

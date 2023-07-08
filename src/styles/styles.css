@@ -131,12 +131,13 @@
 
 .myLinks-component {
   position: absolute !important;
-  background-color: #eee;
+  background-color: #fff;
   right: 20px;
+  border: 1px solid black;
 }
 
 .myLinks-component div {
-  padding: 5px 15px;
+  padding: 5px 25px;
 }
 
 .myLinks-component div:hover {

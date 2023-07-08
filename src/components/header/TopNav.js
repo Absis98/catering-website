@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "../../styles/styles.css"
 import { NavLink } from "react-router-dom";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function TopNav() {
@@ -9,7 +9,7 @@ function TopNav() {
 
     return (
         <div className="topnav">
-            <FontAwesomeIcon icon={faBars} onClick={() => toggleDisplayActions(!displayActions)} />
+            <FontAwesomeIcon icon={ displayActions ? faXmark : faBars} onClick={() => toggleDisplayActions(!displayActions)} />
             {displayActions && <div className="myLinks-component">
                 <div
                     onClick={() => toggleDisplayActions(false)}

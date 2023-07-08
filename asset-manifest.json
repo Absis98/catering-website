@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/catering-website/static/css/main.f28ea0d9.css",
-    "main.js": "/catering-website/static/js/main.d65ea4f4.js",
+    "main.css": "/catering-website/static/css/main.63986e4a.css",
+    "main.js": "/catering-website/static/js/main.2d60aa7e.js",
     "static/js/787.47bf7c87.chunk.js": "/catering-website/static/js/787.47bf7c87.chunk.js",
     "static/media/parallax-1.jpg": "/catering-website/static/media/parallax-1.9dc15cd32693b37cbde2.jpg",
     "static/media/waiter.jpg": "/catering-website/static/media/waiter.3846daeadd93a44fb77d.jpg",
     "index.html": "/catering-website/index.html",
-    "main.f28ea0d9.css.map": "/catering-website/static/css/main.f28ea0d9.css.map",
-    "main.d65ea4f4.js.map": "/catering-website/static/js/main.d65ea4f4.js.map",
+    "main.63986e4a.css.map": "/catering-website/static/css/main.63986e4a.css.map",
+    "main.2d60aa7e.js.map": "/catering-website/static/js/main.2d60aa7e.js.map",
     "787.47bf7c87.chunk.js.map": "/catering-website/static/js/787.47bf7c87.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f28ea0d9.css",
-    "static/js/main.d65ea4f4.js"
+    "static/css/main.63986e4a.css",
+    "static/js/main.2d60aa7e.js"
   ]
 }

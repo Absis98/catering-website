@@ -1,17 +1,21 @@
 {
   "files": {
-    "main.css": "/catering-website/static/css/main.24c9f67b.css",
-    "main.js": "/catering-website/static/js/main.1a8fb01b.js",
+    "main.css": "/catering-website/static/css/main.2f49986e.css",
+    "main.js": "/catering-website/static/js/main.dd4d50aa.js",
     "static/js/787.47bf7c87.chunk.js": "/catering-website/static/js/787.47bf7c87.chunk.js",
-    "static/media/parallax-1.jpg": "/catering-website/static/media/parallax-1.9dc15cd32693b37cbde2.jpg",
-    "static/media/waiter.jpg": "/catering-website/static/media/waiter.3846daeadd93a44fb77d.jpg",
+    "static/media/salad.jpg": "/catering-website/static/media/salad.c2c470806597a64b47f7.jpg",
+    "static/media/dishes.jpg": "/catering-website/static/media/dishes.07d2c3b1e31fc3382eea.jpg",
+    "static/media/dishes3.jpg": "/catering-website/static/media/dishes3.e5f3f609f01725c1bdc0.jpg",
+    "static/media/fruits.jpg": "/catering-website/static/media/fruits.2f4717df0dbbab2db9fb.jpg",
+    "static/media/table-served.jpg": "/catering-website/static/media/table-served.9782962d459e293d01f9.jpg",
+    "static/media/dishes2.jpg": "/catering-website/static/media/dishes2.f2f06deb84873e01d474.jpg",
     "index.html": "/catering-website/index.html",
-    "main.24c9f67b.css.map": "/catering-website/static/css/main.24c9f67b.css.map",
-    "main.1a8fb01b.js.map": "/catering-website/static/js/main.1a8fb01b.js.map",
+    "main.2f49986e.css.map": "/catering-website/static/css/main.2f49986e.css.map",
+    "main.dd4d50aa.js.map": "/catering-website/static/js/main.dd4d50aa.js.map",
     "787.47bf7c87.chunk.js.map": "/catering-website/static/js/787.47bf7c87.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.24c9f67b.css",
-    "static/js/main.1a8fb01b.js"
+    "static/css/main.2f49986e.css",
+    "static/js/main.dd4d50aa.js"
   ]
 }

@@ -8,11 +8,9 @@ function Footer() {
                 <div>
                 Sisodiya Caterers, Sisodiya Caterers Godown, Geeta Nagar, Akola, Maharashtra, 444001
                 </div>
-                <hr/>
-                <div className="">
+                <div className="mt-4">
                     Website developed by Abhijitsingh Sisodiya
                 </div>
-
             </div>
         </div>
     )

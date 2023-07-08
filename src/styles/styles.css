@@ -1,91 +1,144 @@
 .parallax {
-    /* The image used */
-    background-image: url("../media/images/parallax-1.jpg");
-  
-    /* Set a specific height */
-    height: 500px;
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+  /* The image used */
+  background-image: url("../media/images/parallax-1.jpg");
 
-.page-header {
-    position: sticky;
-    top: 0;
-    background-color: #fff;
-    width: 100vw;
-    margin: 0;
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
- .content-height {
-    height: 1000px;
+.selected {
+  color: red;
+}
+
+.page-header {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  width: 100vw;
+  margin: 0;
+}
+
+.content-height {
+  height: 1000px;
 }
 
 .application-container {
-    margin: 0 3%;
-    background-color: #fff;
+  margin: 0 3%;
+  background-color: #fff;
 }
 
 .waiter-img {
-    width: 100%;
-    max-width: none;
-    min-width: 300px;
+  width: 100%;
+  max-width: none;
+  min-width: 300px;
 }
 
 .content-text {
-    padding: 5% 2% 5% 2%;
-    width: 100%;
+  padding: 5% 2% 5% 2%;
+  width: 100%;
 }
 
 .grid-image {
-    width: 50%;
-    min-width: 350px;
+  width: 50%;
+  min-width: 350px;
 }
 
 .parallax-commitment {
-    /* The image used */
-    background-image: url("../media/images/waiter.jpg");
-  
-    /* Set a specific height */
-    height: 500px;
-    object-fit: stretch;
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+  /* The image used */
+  background-image: url("../media/images/waiter.jpg");
 
-  .intro-title {
-    
-    font-family: 'adobe-garamond-pro';
-    font-size: 2.5rem;
-    font-weight: 600;
-    color: #111;
-  }
+  /* Set a specific height */
+  height: 500px;
+  object-fit: stretch;
 
-  .intro-text {
-    margin-top: 20px;
-    font-size: 1.2rem;
-    font-weight: 300;
-    color: #444;
-  }
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+.intro-title {
+  font-family: "adobe-garamond-pro";
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #111;
+}
+
+.intro-text {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #777;
+}
+
+.commitment {
+  margin-left: 10%;
+  width: 50%;
+}
+
+@media screen and (max-width: 500px) {
   .commitment {
-    margin-left: 10%;
-    width: 50%;
+    width: 80%;
   }
 
-  @media screen and (max-width: 500px){
-    .commitment {
-      width: 80%;
-    }
-
-    .navigation-actions {
-      display: none !important;
-    }
+  .navigation-actions {
+    display: none !important;
   }
+}
+
+.about-content {
+  width: 60%;
+}
+
+.social-work-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 600px) {
+  .about-content {
+    width: 80%;
+  }
+  .social-work-flex {
+    flex-direction: column;
+  }
+}
+.social-work {
+  width: 70%;
+  margin-top: 5%;
+}
+
+.we-support {
+  margin-left: 10%;
+}
+
+.topnav {
+  display: none;
+}
+
+@media screen  and (max-width: 500px){
+  .topnav {
+    display: block;
+  }
+}
+
+.myLinks-component {
+  position: absolute !important;
+  background-color: #eee;
+  right: 20px;
+}
+
+.myLinks-component div {
+  padding: 5px 15px;
+}
+
+.myLinks-component div:hover {
+  background-color: #ddd;
+}

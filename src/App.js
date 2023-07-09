@@ -5,6 +5,8 @@ import Footer from './components/home/Footer';
 import About from './components/about/About';
 import Header from './components/header/Header';
 import { Routes, Route } from "react-router-dom"
+import Menu from "./pages/Menu";
+import MenuItemsPage from "./pages/MenuItems";
 
 function App() {
   return (
@@ -22,7 +24,13 @@ function App() {
           <Route path='/clients' element={<Home />} />
 
           <Route path='/catering-website/contact' element={<Home />} />
-          <Route path='/contact' element={<Home />} />          
+          <Route path='/contact' element={<Home />} />
+
+          <Route path='/catering-website/menu' element={<Menu />} />
+          <Route path='/menu' element={<Menu />} />
+
+          <Route path='/catering-website/menu-items' element={<MenuItemsPage />} />
+          <Route path='/menu-items' element={<MenuItemsPage />} />
 
         </Routes>
         <Footer />

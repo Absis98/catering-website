@@ -12,6 +12,23 @@
   background-size: cover;
 }
 
+.parallax-about {
+  /* The image used */
+  background-image: url("../media/images/fruits.jpg");
+
+  /* Set a specific height */
+  height: 500px;
+
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
 .selected {
   color: red;
 }
@@ -35,13 +52,13 @@
 
 .waiter-img {
   width: 100%;
-  max-width: none;
+  max-width: 80%;
   min-width: 300px;
+  margin: auto;
 }
 
 .content-text {
   padding: 5% 2% 5% 2%;
-  width: 100%;
 }
 
 .grid-image {
@@ -51,7 +68,7 @@
 
 .parallax-commitment {
   /* The image used */
-  background-image: url("../media/images/waiter.jpg");
+  background-image: url("../media/images/table-served.jpg");
 
   /* Set a specific height */
   height: 500px;
@@ -91,6 +108,10 @@
   .navigation-actions {
     display: none !important;
   }
+
+  .waiter-img {
+    max-width: none;
+  } 
 }
 
 .about-content {
@@ -142,4 +163,26 @@
 
 .myLinks-component div:hover {
   background-color: #ddd;
+}
+
+.menu-category-card {
+  max-height: 200px;
+}
+
+.menu-item-card-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.menu-item-text-centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.menu-page-title {
+    font-size: 2rem;
+    font-weight: 500;
 }

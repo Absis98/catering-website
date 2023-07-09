@@ -1,20 +1,14 @@
 import '../../styles/styles.css';
 import Introduction from './Introduction';
-import ImageGrid from './ImageGrid';
 import Commitment from './Commitment';
-import Footer from './Footer';
+import Carousel from './Carousel';
 
 function Home() {
-    window.addEventListener("scroll", function () {
-        var parallax = document.querySelector(".parallax");
-        var scrolledHeight = window.pageYOffset;
-        parallax.style.backgroundPositionY = (scrolledHeight - (scrolledHeight * 1.3)) + "px";
-    });
     return (
         <div>
-            <div className='parallax'></div>
+            {/* <Carousel /> */}
             <Introduction />
-            <ImageGrid />
+            {/* <ImageGrid /> */}
             <Commitment />
         </div>
     )

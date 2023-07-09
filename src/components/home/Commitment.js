@@ -2,8 +2,8 @@ import "../../styles/styles.css";
 
 function Commitment() {
     window.addEventListener("scroll", function () {
-        var parallax = document.querySelector(".parallax-commitment");
-        var scrolledHeight = window.pageYOffset;
+        const parallax = document.querySelector(".parallax-commitment");
+        const scrolledHeight = window.pageYOffset;
         if (parallax) {
             parallax.style.backgroundPositionY = 100 + scrolledHeight * (-0.05) + "px";
         }

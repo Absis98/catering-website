@@ -18,6 +18,12 @@ function Header() {
                 </div>
                 <div className="mx-3">
                     <NavLink className={({ isActive }) => (isActive ? "selected" : "not-active-class")}
+                        to="/catering-website/menu">
+                        Menu
+                    </NavLink>
+                </div>
+                <div className="mx-3">
+                    <NavLink className={({ isActive }) => (isActive ? "selected" : "not-active-class")}
                         to="/catering-website/about">
                         About
                     </NavLink>
